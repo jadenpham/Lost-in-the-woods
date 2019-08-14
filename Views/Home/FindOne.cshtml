@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>@ViewBag.OneTrail.Name</h1>
+    <div>
+        <h3>Description</h3>
+        <p>@ViewBag.OneTrail.Description</p>
+    </div>
+    <div>
+        <h3>Trail Length: @ViewBag.OneTrail.Length Miles</h3>
+        <h3>Trail Length: @ViewBag.OneTrail.Elevation feet</h3>
+    </div>
+    <div>
+        <h5>Longitude: @ViewBag.OneTrail.Longitude</h5>
+        <h5>Longitude: @ViewBag.OneTrail.Latitude</h5>
+    </div>
+    <div>
+        <a href="/">Home</a>
+    </div>
+</body>
+</html>
